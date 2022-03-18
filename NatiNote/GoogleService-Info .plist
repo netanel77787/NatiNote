@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>781455998148-7fh1jutc2e1pp29lbo9f2qf4gkd7p4t2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.781455998148-7fh1jutc2e1pp29lbo9f2qf4gkd7p4t2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA13TjXsVk_ql7seHPauulNJVU4yXh5E4A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>781455998148</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.netanelma.NatiNote</string>
+	<key>PROJECT_ID</key>
+	<string>natinote-224d1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>natinote-224d1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:781455998148:ios:03118cc3c7e247a2b59d91</string>
+	<key>DATABASE_URL</key>
+	<string>https://natinote-224d1-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

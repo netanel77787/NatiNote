@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A6E2FBFE1EB3D69A2316C43 /* Pods_NatiNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984DBDB314F6C57683F66590 /* Pods_NatiNote.framework */; };
 		E33CBEF827E4A9280045E5E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBEF727E4A9280045E5E9 /* AppDelegate.swift */; };
 		E33CBEFA27E4A9280045E5E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBEF927E4A9280045E5E9 /* SceneDelegate.swift */; };
 		E33CBEFC27E4A9280045E5E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBEFB27E4A9280045E5E9 /* ViewController.swift */; };
@@ -21,9 +22,13 @@
 		E33CBF1D27E4A93C0045E5E9 /* UiViewController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBF1327E4A93B0045E5E9 /* UiViewController+extensions.swift */; };
 		E33CBF1E27E4A93C0045E5E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33CBF1527E4A93B0045E5E9 /* LaunchScreen.storyboard */; };
 		E33CBF1F27E4A93C0045E5E9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33CBF1727E4A93B0045E5E9 /* Login.storyboard */; };
+		E33CBF2127E4AC9B0045E5E9 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = E33CBF2027E4AC9B0045E5E9 /* GoogleService-Info .plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81F578BFA745ABEC2E310CC2 /* Pods-NatiNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NatiNote.release.xcconfig"; path = "Target Support Files/Pods-NatiNote/Pods-NatiNote.release.xcconfig"; sourceTree = "<group>"; };
+		984DBDB314F6C57683F66590 /* Pods_NatiNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NatiNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DC7B66A9AA644ECA5B7A3E /* Pods-NatiNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NatiNote.debug.xcconfig"; path = "Target Support Files/Pods-NatiNote/Pods-NatiNote.debug.xcconfig"; sourceTree = "<group>"; };
 		E33CBEF427E4A9280045E5E9 /* NatiNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatiNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E33CBEF727E4A9280045E5E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E33CBEF927E4A9280045E5E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		E33CBF1327E4A93B0045E5E9 /* UiViewController+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiViewController+extensions.swift"; sourceTree = "<group>"; };
 		E33CBF1627E4A93B0045E5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E33CBF1727E4A93B0045E5E9 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		E33CBF2027E4AC9B0045E5E9 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +53,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6E2FBFE1EB3D69A2316C43 /* Pods_NatiNote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2666738B0505228054F035BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC7B66A9AA644ECA5B7A3E /* Pods-NatiNote.debug.xcconfig */,
+				81F578BFA745ABEC2E310CC2 /* Pods-NatiNote.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB288EB040D032E98922D8DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				984DBDB314F6C57683F66590 /* Pods_NatiNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E33CBEEB27E4A9280045E5E9 = {
 			isa = PBXGroup;
 			children = (
 				E33CBEF627E4A9280045E5E9 /* NatiNote */,
 				E33CBEF527E4A9280045E5E9 /* Products */,
+				2666738B0505228054F035BF /* Pods */,
+				AB288EB040D032E98922D8DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +109,7 @@
 				E33CBEFD27E4A9280045E5E9 /* Main.storyboard */,
 				E33CBF0027E4A9290045E5E9 /* Assets.xcassets */,
 				E33CBF0227E4A9290045E5E9 /* LaunchScreen.storyboard */,
+				E33CBF2027E4AC9B0045E5E9 /* GoogleService-Info .plist */,
 				E33CBF0527E4A9290045E5E9 /* Info.plist */,
 			);
 			path = NatiNote;
@@ -130,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E33CBF0827E4A9290045E5E9 /* Build configuration list for PBXNativeTarget "NatiNote" */;
 			buildPhases = (
+				97F23158BCA4F77CA27E5D86 /* [CP] Check Pods Manifest.lock */,
 				E33CBEF027E4A9280045E5E9 /* Sources */,
 				E33CBEF127E4A9280045E5E9 /* Frameworks */,
 				E33CBEF227E4A9280045E5E9 /* Resources */,
+				3C4E9AD85DC885A68B9BA3A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,11 +215,54 @@
 				E33CBF1E27E4A93C0045E5E9 /* LaunchScreen.storyboard in Resources */,
 				E33CBF0127E4A9290045E5E9 /* Assets.xcassets in Resources */,
 				E33CBF1F27E4A93C0045E5E9 /* Login.storyboard in Resources */,
+				E33CBF2127E4AC9B0045E5E9 /* GoogleService-Info .plist in Resources */,
 				E33CBEFF27E4A9280045E5E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C4E9AD85DC885A68B9BA3A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NatiNote/Pods-NatiNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NatiNote/Pods-NatiNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NatiNote/Pods-NatiNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F23158BCA4F77CA27E5D86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NatiNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E33CBEF027E4A9280045E5E9 /* Sources */ = {
@@ -354,6 +427,7 @@
 		};
 		E33CBF0927E4A9290045E5E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9DC7B66A9AA644ECA5B7A3E /* Pods-NatiNote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -382,6 +456,7 @@
 		};
 		E33CBF0A27E4A9290045E5E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F578BFA745ABEC2E310CC2 /* Pods-NatiNote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,6 @@
+framework module Pods_NatiNote {
+  umbrella header "Pods-NatiNote-umbrella.h"
+
+  export *
+  module * { export * }
+}
