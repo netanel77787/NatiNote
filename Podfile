@@ -7,13 +7,13 @@ target 'NatiNote' do
 
   # Pods for NatiNote
 
-  pod 'Firebase/Analytics'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+  pod 'Firebase/Analytics'
   pod 'Firebase/Storage'
   
   pod 'FirebaseUI/Storage'
-  pod 'PKHUD'
+  pod 'PKHUD' 
 
 end

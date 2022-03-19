@@ -10,10 +10,7 @@
 		5A6E2FBFE1EB3D69A2316C43 /* Pods_NatiNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984DBDB314F6C57683F66590 /* Pods_NatiNote.framework */; };
 		E33CBEF827E4A9280045E5E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBEF727E4A9280045E5E9 /* AppDelegate.swift */; };
 		E33CBEFA27E4A9280045E5E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBEF927E4A9280045E5E9 /* SceneDelegate.swift */; };
-		E33CBEFC27E4A9280045E5E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBEFB27E4A9280045E5E9 /* ViewController.swift */; };
-		E33CBEFF27E4A9280045E5E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33CBEFD27E4A9280045E5E9 /* Main.storyboard */; };
 		E33CBF0127E4A9290045E5E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33CBF0027E4A9290045E5E9 /* Assets.xcassets */; };
-		E33CBF0427E4A9290045E5E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33CBF0227E4A9290045E5E9 /* LaunchScreen.storyboard */; };
 		E33CBF1827E4A93C0045E5E9 /* HomeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBF0C27E4A93B0045E5E9 /* HomeLoginViewController.swift */; };
 		E33CBF1927E4A93C0045E5E9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBF0D27E4A93B0045E5E9 /* LoginViewController.swift */; };
 		E33CBF1A27E4A93C0045E5E9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBF0E27E4A93B0045E5E9 /* RegisterViewController.swift */; };
@@ -22,7 +19,7 @@
 		E33CBF1D27E4A93C0045E5E9 /* UiViewController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBF1327E4A93B0045E5E9 /* UiViewController+extensions.swift */; };
 		E33CBF1E27E4A93C0045E5E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33CBF1527E4A93B0045E5E9 /* LaunchScreen.storyboard */; };
 		E33CBF1F27E4A93C0045E5E9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33CBF1727E4A93B0045E5E9 /* Login.storyboard */; };
-		E33CBF2127E4AC9B0045E5E9 /* GoogleService-Info .plist in Resources */ = {isa = PBXBuildFile; fileRef = E33CBF2027E4AC9B0045E5E9 /* GoogleService-Info .plist */; };
+		E3600E0927E4CAA400E09282 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3600E0827E4CAA400E09282 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +29,7 @@
 		E33CBEF427E4A9280045E5E9 /* NatiNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatiNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E33CBEF727E4A9280045E5E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E33CBEF927E4A9280045E5E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E33CBEFB27E4A9280045E5E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E33CBEFE27E4A9280045E5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E33CBF0027E4A9290045E5E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E33CBF0327E4A9290045E5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E33CBF0527E4A9290045E5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E33CBF0C27E4A93B0045E5E9 /* HomeLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLoginViewController.swift; sourceTree = "<group>"; };
 		E33CBF0D27E4A93B0045E5E9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +39,7 @@
 		E33CBF1327E4A93B0045E5E9 /* UiViewController+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiViewController+extensions.swift"; sourceTree = "<group>"; };
 		E33CBF1627E4A93B0045E5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E33CBF1727E4A93B0045E5E9 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		E33CBF2027E4AC9B0045E5E9 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
+		E3600E0827E4CAA400E09282 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +60,6 @@
 				A9DC7B66A9AA644ECA5B7A3E /* Pods-NatiNote.debug.xcconfig */,
 				81F578BFA745ABEC2E310CC2 /* Pods-NatiNote.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -99,17 +92,14 @@
 		E33CBEF627E4A9280045E5E9 /* NatiNote */ = {
 			isa = PBXGroup;
 			children = (
+				E3600E0827E4CAA400E09282 /* GoogleService-Info.plist */,
 				E33CBF0B27E4A93B0045E5E9 /* Controllers */,
 				E33CBF1227E4A93B0045E5E9 /* Controllers+ extensions */,
 				E33CBF0F27E4A93B0045E5E9 /* Models */,
 				E33CBF1427E4A93B0045E5E9 /* Storyboards */,
 				E33CBEF727E4A9280045E5E9 /* AppDelegate.swift */,
 				E33CBEF927E4A9280045E5E9 /* SceneDelegate.swift */,
-				E33CBEFB27E4A9280045E5E9 /* ViewController.swift */,
-				E33CBEFD27E4A9280045E5E9 /* Main.storyboard */,
 				E33CBF0027E4A9290045E5E9 /* Assets.xcassets */,
-				E33CBF0227E4A9290045E5E9 /* LaunchScreen.storyboard */,
-				E33CBF2027E4AC9B0045E5E9 /* GoogleService-Info .plist */,
 				E33CBF0527E4A9290045E5E9 /* Info.plist */,
 			);
 			path = NatiNote;
@@ -211,12 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E33CBF0427E4A9290045E5E9 /* LaunchScreen.storyboard in Resources */,
 				E33CBF1E27E4A93C0045E5E9 /* LaunchScreen.storyboard in Resources */,
+				E3600E0927E4CAA400E09282 /* GoogleService-Info.plist in Resources */,
 				E33CBF0127E4A9290045E5E9 /* Assets.xcassets in Resources */,
 				E33CBF1F27E4A93C0045E5E9 /* Login.storyboard in Resources */,
-				E33CBF2127E4AC9B0045E5E9 /* GoogleService-Info .plist in Resources */,
-				E33CBEFF27E4A9280045E5E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E33CBF1C27E4A93C0045E5E9 /* Router.swift in Sources */,
-				E33CBEFC27E4A9280045E5E9 /* ViewController.swift in Sources */,
 				E33CBF1827E4A93C0045E5E9 /* HomeLoginViewController.swift in Sources */,
 				E33CBEF827E4A9280045E5E9 /* AppDelegate.swift in Sources */,
 				E33CBF1B27E4A93C0045E5E9 /* AppAuth.swift in Sources */,
@@ -284,22 +271,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E33CBEFD27E4A9280045E5E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E33CBEFE27E4A9280045E5E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E33CBF0227E4A9290045E5E9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E33CBF0327E4A9290045E5E9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		E33CBF1527E4A93B0045E5E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -445,6 +416,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.netanelma.NatiNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -474,6 +446,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.netanelma.NatiNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
