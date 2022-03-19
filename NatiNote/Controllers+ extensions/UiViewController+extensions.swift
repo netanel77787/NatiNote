@@ -56,6 +56,7 @@ extension UserValidation{
         guard let password = passwordTextField.text,
               !password.isEmpty,
               password.count >= 6
+                
         else {
             showLabel(title: "Password must contain at least 6 characters")
             return false
@@ -65,13 +66,15 @@ extension UserValidation{
     }
     
     func registerCallback(_ result: AuthDataResult?,_ err: Error?){
-        
         if let err = err {
             showError(title: "Error", subtitle: "\(err.localizedDescription)")
             return
         }
-       
+//        if Auth.auth().currentUser != nil{
+//            showSuccess(title: "User createdsuccessfully")
+//        }
         Router.shared.registerDetermineRootViewController()
+        AppAuth.shared.signOut()
     }
     
     func loginCallback(_ result: AuthDataResult?,_ err: Error?){
@@ -80,7 +83,9 @@ extension UserValidation{
             showError(title: "Error", subtitle: "\(err.localizedDescription)")
             return
         }
-        showSuccess(title: "Welcome")
+        if Router.shared.isUserLoggedIn{
+            showSuccess(title: "Successfully signed in")
+        }
         Router.shared.loginDetermineRootViewController()
     }
     

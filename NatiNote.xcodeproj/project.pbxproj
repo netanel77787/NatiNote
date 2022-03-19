@@ -19,7 +19,9 @@
 		E33CBF1D27E4A93C0045E5E9 /* UiViewController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBF1327E4A93B0045E5E9 /* UiViewController+extensions.swift */; };
 		E33CBF1E27E4A93C0045E5E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33CBF1527E4A93B0045E5E9 /* LaunchScreen.storyboard */; };
 		E33CBF1F27E4A93C0045E5E9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33CBF1727E4A93B0045E5E9 /* Login.storyboard */; };
-		E3600E0927E4CAA400E09282 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3600E0827E4CAA400E09282 /* GoogleService-Info.plist */; };
+		E3B6BB8227E5ACF600C3D996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B6BB8127E5ACF600C3D996 /* Main.storyboard */; };
+		E3B6BB8427E5AD4000C3D996 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6BB8327E5AD4000C3D996 /* MainViewController.swift */; };
+		E3B6BB8827E5AFAB00C3D996 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3B6BB8727E5AFAB00C3D996 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +41,9 @@
 		E33CBF1327E4A93B0045E5E9 /* UiViewController+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiViewController+extensions.swift"; sourceTree = "<group>"; };
 		E33CBF1627E4A93B0045E5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E33CBF1727E4A93B0045E5E9 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		E3600E0827E4CAA400E09282 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3B6BB8127E5ACF600C3D996 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E3B6BB8327E5AD4000C3D996 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E3B6BB8727E5AFAB00C3D996 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +96,6 @@
 		E33CBEF627E4A9280045E5E9 /* NatiNote */ = {
 			isa = PBXGroup;
 			children = (
-				E3600E0827E4CAA400E09282 /* GoogleService-Info.plist */,
 				E33CBF0B27E4A93B0045E5E9 /* Controllers */,
 				E33CBF1227E4A93B0045E5E9 /* Controllers+ extensions */,
 				E33CBF0F27E4A93B0045E5E9 /* Models */,
@@ -100,6 +103,7 @@
 				E33CBEF727E4A9280045E5E9 /* AppDelegate.swift */,
 				E33CBEF927E4A9280045E5E9 /* SceneDelegate.swift */,
 				E33CBF0027E4A9290045E5E9 /* Assets.xcassets */,
+				E3B6BB8727E5AFAB00C3D996 /* GoogleService-Info.plist */,
 				E33CBF0527E4A9290045E5E9 /* Info.plist */,
 			);
 			path = NatiNote;
@@ -108,6 +112,7 @@
 		E33CBF0B27E4A93B0045E5E9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E3B6BB8327E5AD4000C3D996 /* MainViewController.swift */,
 				E33CBF0C27E4A93B0045E5E9 /* HomeLoginViewController.swift */,
 				E33CBF0D27E4A93B0045E5E9 /* LoginViewController.swift */,
 				E33CBF0E27E4A93B0045E5E9 /* RegisterViewController.swift */,
@@ -137,6 +142,7 @@
 			children = (
 				E33CBF1527E4A93B0045E5E9 /* LaunchScreen.storyboard */,
 				E33CBF1727E4A93B0045E5E9 /* Login.storyboard */,
+				E3B6BB8127E5ACF600C3D996 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -202,7 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E33CBF1E27E4A93C0045E5E9 /* LaunchScreen.storyboard in Resources */,
-				E3600E0927E4CAA400E09282 /* GoogleService-Info.plist in Resources */,
+				E3B6BB8227E5ACF600C3D996 /* Main.storyboard in Resources */,
+				E3B6BB8827E5AFAB00C3D996 /* GoogleService-Info.plist in Resources */,
 				E33CBF0127E4A9290045E5E9 /* Assets.xcassets in Resources */,
 				E33CBF1F27E4A93C0045E5E9 /* Login.storyboard in Resources */,
 			);
@@ -263,6 +270,7 @@
 				E33CBF1B27E4A93C0045E5E9 /* AppAuth.swift in Sources */,
 				E33CBF1A27E4A93C0045E5E9 /* RegisterViewController.swift in Sources */,
 				E33CBF1927E4A93C0045E5E9 /* LoginViewController.swift in Sources */,
+				E3B6BB8427E5AD4000C3D996 /* MainViewController.swift in Sources */,
 				E33CBF1D27E4A93C0045E5E9 /* UiViewController+extensions.swift in Sources */,
 				E33CBEFA27E4A9280045E5E9 /* SceneDelegate.swift in Sources */,
 			);

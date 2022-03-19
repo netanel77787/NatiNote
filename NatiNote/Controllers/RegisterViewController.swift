@@ -36,10 +36,11 @@ class RegisterViewController: UIViewController {
               let password = passwordTextField.text else {return}
         
         showProgress(title: "Signing up")
-        
+
         AppAuth.shared.register(email: email, password: password, callback: registerCallback(_:_:))
         
-        showSuccess(title: "User added successfully")
+        
+       
         
     }
     

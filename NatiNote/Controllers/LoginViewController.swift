@@ -32,9 +32,12 @@ class LoginViewController: UIViewController {
         
         showProgress(title: "Signing you in")
         
+        
+        
         AppAuth.shared.login(email: email, password: password, callback: loginCallback(_:_:))
         
-        showSuccess(title: "Signed in successfully")
+
+       
       
         
     }
