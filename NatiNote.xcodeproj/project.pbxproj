@@ -19,9 +19,16 @@
 		E33CBF1D27E4A93C0045E5E9 /* UiViewController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33CBF1327E4A93B0045E5E9 /* UiViewController+extensions.swift */; };
 		E33CBF1E27E4A93C0045E5E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33CBF1527E4A93B0045E5E9 /* LaunchScreen.storyboard */; };
 		E33CBF1F27E4A93C0045E5E9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33CBF1727E4A93B0045E5E9 /* Login.storyboard */; };
+		E36ACEEA27E60F7200D0B6D7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ACEE927E60F7200D0B6D7 /* MapViewController.swift */; };
+		E39A7C2D27E5F5E400692F2D /* Note+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39A7C2C27E5F5E400692F2D /* Note+extensions.swift */; };
+		E39A7C3027E5F66000692F2D /* NotesDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39A7C2F27E5F66000692F2D /* NotesDAO.swift */; };
+		E39A7C3127E5FC0000692F2D /* NatiNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3B6BB8C27E5CAFA00C3D996 /* NatiNote.xcdatamodeld */; };
+		E39A7C3527E5FC8200692F2D /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39A7C3327E5FC8200692F2D /* Note+CoreDataClass.swift */; };
+		E39A7C3627E5FC8200692F2D /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39A7C3427E5FC8200692F2D /* Note+CoreDataProperties.swift */; };
 		E3B6BB8227E5ACF600C3D996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B6BB8127E5ACF600C3D996 /* Main.storyboard */; };
-		E3B6BB8427E5AD4000C3D996 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6BB8327E5AD4000C3D996 /* MainViewController.swift */; };
 		E3B6BB8827E5AFAB00C3D996 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3B6BB8727E5AFAB00C3D996 /* GoogleService-Info.plist */; };
+		E3B6BB8B27E5C22900C3D996 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6BB8A27E5C22900C3D996 /* NoteTableViewCell.swift */; };
+		E3B6BB9027E5D33500C3D996 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6BB8F27E5D33500C3D996 /* NotesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,9 +48,16 @@
 		E33CBF1327E4A93B0045E5E9 /* UiViewController+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiViewController+extensions.swift"; sourceTree = "<group>"; };
 		E33CBF1627E4A93B0045E5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E33CBF1727E4A93B0045E5E9 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		E36ACEE927E60F7200D0B6D7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E39A7C2C27E5F5E400692F2D /* Note+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+extensions.swift"; sourceTree = "<group>"; };
+		E39A7C2F27E5F66000692F2D /* NotesDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesDAO.swift; sourceTree = "<group>"; };
+		E39A7C3327E5FC8200692F2D /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E39A7C3427E5FC8200692F2D /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E3B6BB8127E5ACF600C3D996 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		E3B6BB8327E5AD4000C3D996 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E3B6BB8727E5AFAB00C3D996 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3B6BB8A27E5C22900C3D996 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		E3B6BB8D27E5CAFA00C3D996 /* NatiNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NatiNote.xcdatamodel; sourceTree = "<group>"; };
+		E3B6BB8F27E5D33500C3D996 /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,9 @@
 		E33CBEF627E4A9280045E5E9 /* NatiNote */ = {
 			isa = PBXGroup;
 			children = (
+				E39A7C3227E5FC2A00692F2D /* Entities */,
+				E39A7C2E27E5F64C00692F2D /* Database */,
+				E3B6BB8927E5C20F00C3D996 /* Views */,
 				E33CBF0B27E4A93B0045E5E9 /* Controllers */,
 				E33CBF1227E4A93B0045E5E9 /* Controllers+ extensions */,
 				E33CBF0F27E4A93B0045E5E9 /* Models */,
@@ -105,6 +122,7 @@
 				E33CBF0027E4A9290045E5E9 /* Assets.xcassets */,
 				E3B6BB8727E5AFAB00C3D996 /* GoogleService-Info.plist */,
 				E33CBF0527E4A9290045E5E9 /* Info.plist */,
+				E3B6BB8C27E5CAFA00C3D996 /* NatiNote.xcdatamodeld */,
 			);
 			path = NatiNote;
 			sourceTree = "<group>";
@@ -112,10 +130,11 @@
 		E33CBF0B27E4A93B0045E5E9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E3B6BB8327E5AD4000C3D996 /* MainViewController.swift */,
 				E33CBF0C27E4A93B0045E5E9 /* HomeLoginViewController.swift */,
 				E33CBF0D27E4A93B0045E5E9 /* LoginViewController.swift */,
 				E33CBF0E27E4A93B0045E5E9 /* RegisterViewController.swift */,
+				E3B6BB8F27E5D33500C3D996 /* NotesTableViewController.swift */,
+				E36ACEE927E60F7200D0B6D7 /* MapViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -125,6 +144,7 @@
 			children = (
 				E33CBF1027E4A93B0045E5E9 /* AppAuth.swift */,
 				E33CBF1127E4A93B0045E5E9 /* Router.swift */,
+				E39A7C2C27E5F5E400692F2D /* Note+extensions.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -145,6 +165,31 @@
 				E3B6BB8127E5ACF600C3D996 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E39A7C2E27E5F64C00692F2D /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				E39A7C2F27E5F66000692F2D /* NotesDAO.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		E39A7C3227E5FC2A00692F2D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E39A7C3327E5FC8200692F2D /* Note+CoreDataClass.swift */,
+				E39A7C3427E5FC8200692F2D /* Note+CoreDataProperties.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E3B6BB8927E5C20F00C3D996 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3B6BB8A27E5C22900C3D996 /* NoteTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,14 +310,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				E33CBF1C27E4A93C0045E5E9 /* Router.swift in Sources */,
+				E39A7C3527E5FC8200692F2D /* Note+CoreDataClass.swift in Sources */,
+				E3B6BB9027E5D33500C3D996 /* NotesTableViewController.swift in Sources */,
 				E33CBF1827E4A93C0045E5E9 /* HomeLoginViewController.swift in Sources */,
+				E39A7C3127E5FC0000692F2D /* NatiNote.xcdatamodeld in Sources */,
 				E33CBEF827E4A9280045E5E9 /* AppDelegate.swift in Sources */,
+				E39A7C2D27E5F5E400692F2D /* Note+extensions.swift in Sources */,
 				E33CBF1B27E4A93C0045E5E9 /* AppAuth.swift in Sources */,
 				E33CBF1A27E4A93C0045E5E9 /* RegisterViewController.swift in Sources */,
+				E3B6BB8B27E5C22900C3D996 /* NoteTableViewCell.swift in Sources */,
+				E39A7C3027E5F66000692F2D /* NotesDAO.swift in Sources */,
 				E33CBF1927E4A93C0045E5E9 /* LoginViewController.swift in Sources */,
-				E3B6BB8427E5AD4000C3D996 /* MainViewController.swift in Sources */,
 				E33CBF1D27E4A93C0045E5E9 /* UiViewController+extensions.swift in Sources */,
 				E33CBEFA27E4A9280045E5E9 /* SceneDelegate.swift in Sources */,
+				E39A7C3627E5FC8200692F2D /* Note+CoreDataProperties.swift in Sources */,
+				E36ACEEA27E60F7200D0B6D7 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +538,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E3B6BB8C27E5CAFA00C3D996 /* NatiNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3B6BB8D27E5CAFA00C3D996 /* NatiNote.xcdatamodel */,
+			);
+			currentVersion = E3B6BB8D27E5CAFA00C3D996 /* NatiNote.xcdatamodel */;
+			path = NatiNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E33CBEEC27E4A9280045E5E9 /* Project object */;
 }

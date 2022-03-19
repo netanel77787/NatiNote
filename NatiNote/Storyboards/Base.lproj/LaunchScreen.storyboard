@@ -15,14 +15,25 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YsD-eB-ghk">
+                                <rect key="frame" x="161.5" y="432.5" width="91" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Launching"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YsD-eB-ghk" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gSy-Hk-wMZ"/>
+                            <constraint firstItem="YsD-eB-ghk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nzT-YM-7Z2"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ccy-2C-Z0G"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="981" y="255"/>
+            <point key="canvasLocation" x="900" y="273"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="C1e-NK-esz">

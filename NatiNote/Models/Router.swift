@@ -14,9 +14,7 @@ class Router{
     
     private init(){}
     
-//    var currentUser: User{
-//        Auth.auth().currentUser.
-//    }
+
     
     var isUserLoggedIn: Bool{
         Auth.auth().currentUser != nil

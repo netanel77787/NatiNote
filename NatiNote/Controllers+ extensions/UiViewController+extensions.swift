@@ -73,8 +73,9 @@ extension UserValidation{
 //        if Auth.auth().currentUser != nil{
 //            showSuccess(title: "User createdsuccessfully")
 //        }
-        Router.shared.registerDetermineRootViewController()
         AppAuth.shared.signOut()
+        Router.shared.registerDetermineRootViewController()
+        
     }
     
     func loginCallback(_ result: AuthDataResult?,_ err: Error?){
@@ -83,9 +84,9 @@ extension UserValidation{
             showError(title: "Error", subtitle: "\(err.localizedDescription)")
             return
         }
-        if Router.shared.isUserLoggedIn{
-            showSuccess(title: "Successfully signed in")
-        }
+//        if Router.shared.isUserLoggedIn{
+//            showSuccess(title: "Successfully signed in")
+//        }
         Router.shared.loginDetermineRootViewController()
     }
     
