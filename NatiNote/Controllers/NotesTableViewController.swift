@@ -111,8 +111,6 @@ class NotesTableViewController: UITableViewController, MapViewControllerDelegate
             
             changeCellBackground(cell)
 
-
-            
             cell.populate(note: note)
         }
         
@@ -141,9 +139,7 @@ extension NotesTableViewController{
             }
             
         }
-        
-        
-        
+      
         alert.addAction(
             UIAlertAction(title: "OK", style: .default, handler: { action in
                 callback(alert)
