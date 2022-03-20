@@ -8,15 +8,11 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-    
-  
-    
+
     @IBOutlet weak var emailTextField: UITextField!
     
     @IBOutlet weak var passwordTextField: UITextField!
 
-
-    
     @IBOutlet weak var togglePasswordLabel: UILabel!
     
     @IBAction func showPasswordSwitch(_ sender: UISwitch) {
@@ -37,10 +33,8 @@ class LoginViewController: UIViewController {
         
        showProgress(title: "Signing in please wait")
         
-   
         AppAuth.shared.login(email: email, password: password, callback: loginCallback(_:_:))
         
-
     }
 
     override func viewDidLoad() {
@@ -51,13 +45,8 @@ class LoginViewController: UIViewController {
         emailTextField.disableAutoFill()
         // Do any additional setup after loading the view.
     }
-    
-
-   
 
 }
-
-
 
 extension LoginViewController: UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
