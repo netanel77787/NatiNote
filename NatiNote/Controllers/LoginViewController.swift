@@ -25,26 +25,28 @@ class LoginViewController: UIViewController {
         
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        view.endEditing(true)
+    }
+    
     @IBAction func login(_ sender: UIButton) {
         guard isEmailValid && isPasswordValid,
               let email = emailTextField.text,
               let password = passwordTextField.text else {return}
         
-        showProgress(title: "Signing you in")
+       showProgress(title: "Signing in please wait")
         
-        
-        
+   
         AppAuth.shared.login(email: email, password: password, callback: loginCallback(_:_:))
         
 
-       
-      
-        
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        emailTextField.delegate = self
+        passwordTextField.delegate = self
         passwordTextField.disableAutoFill()
         emailTextField.disableAutoFill()
         // Do any additional setup after loading the view.
@@ -53,4 +55,12 @@ class LoginViewController: UIViewController {
 
    
 
+}
+
+
+
+extension LoginViewController: UITextFieldDelegate{
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        view.endEditing(true)
+    }
 }

@@ -13,6 +13,6 @@ import CoreData
 public class Note: NSManagedObject {
 
     public override var description: String{
-        "title \(title) content \(content) image \(image)"
+        "title \(title ?? "") content \(content ?? "") image \(image ?? Data())"
     }
 }

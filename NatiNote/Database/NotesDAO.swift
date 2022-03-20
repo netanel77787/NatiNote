@@ -58,6 +58,20 @@ class NotesDAO{
         return notes
     }
     
+
+    func deleteAll(){
+        let fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "Note")
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+
+        do {
+            try  context.execute(deleteRequest)
+        } catch let err as NSError {
+            showError(title: err.localizedDescription)
+            // TODO: handle the error
+        }
+    }
+
+    
     
     
 }

@@ -16,14 +16,16 @@ class NoteTableViewCell: UITableViewCell {
     @IBOutlet weak var contentLabel: UILabel!
     
 
-    @IBOutlet weak var myImageView: UIImageView!
+    
+    
+    
     
     func populate(note: Note){
         titleLabel.text = note.title
         contentLabel.text = note.content
         
-//        myImageView.sd_setImage(with: UIImage(note.image),
-//                          placeholderImage: UIImage(systemName: "photo"))
+       
+
     }
     
 }

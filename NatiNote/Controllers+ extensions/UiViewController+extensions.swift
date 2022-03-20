@@ -70,11 +70,10 @@ extension UserValidation{
             showError(title: "Error", subtitle: "\(err.localizedDescription)")
             return
         }
-//        if Auth.auth().currentUser != nil{
-//            showSuccess(title: "User createdsuccessfully")
-//        }
-        AppAuth.shared.signOut()
+
+       
         Router.shared.registerDetermineRootViewController()
+        AppAuth.shared.signOut()
         
     }
     
@@ -84,9 +83,7 @@ extension UserValidation{
             showError(title: "Error", subtitle: "\(err.localizedDescription)")
             return
         }
-//        if Router.shared.isUserLoggedIn{
-//            showSuccess(title: "Successfully signed in")
-//        }
+
         Router.shared.loginDetermineRootViewController()
     }
     

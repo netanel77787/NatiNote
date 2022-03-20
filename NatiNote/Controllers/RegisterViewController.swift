@@ -18,8 +18,17 @@ class RegisterViewController: UIViewController {
     
     @IBOutlet weak var togglePasswordLabel: UILabel!
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        view.endEditing(true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        nameTextField.delegate = self
+        emailTextField.delegate = self
+        passwordTextField.delegate = self
+        
         passwordTextField.disableAutoFill()
         emailTextField.disableAutoFill()
     }
@@ -35,8 +44,8 @@ class RegisterViewController: UIViewController {
               let email = emailTextField.text,
               let password = passwordTextField.text else {return}
         
-        showProgress(title: "Signing up")
-
+        showProgress(title: "Signing up ", subtitle: "Please login with your details")
+        
         AppAuth.shared.register(email: email, password: password, callback: registerCallback(_:_:))
         
         
@@ -49,3 +58,9 @@ class RegisterViewController: UIViewController {
 
 }
 
+
+extension RegisterViewController: UITextFieldDelegate{
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        view.endEditing(true)
+    }
+}
