@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NotesTableViewController: UITableViewController, MapViewControllerDelegate {
+class NotesTableViewController: UITableViewController{
     
     let dao = NotesDAO.shared
     var notes: [Note] = []
@@ -48,7 +48,7 @@ class NotesTableViewController: UITableViewController, MapViewControllerDelegate
                         
             let path = IndexPath(row: notes.count-1, section: 0)
             
-            tableView.insertRows(at: [path], with: .automatic)
+            tableView.insertRows(at: [path], with: .bottom)
             
             tableView.scrollToRow(at: path, at: .bottom, animated: true)
             
@@ -177,7 +177,7 @@ extension NotesTableViewController{
     }
 }
 
-extension NotesTableViewController{
+extension NotesTableViewController: MapViewControllerDelegate {
     func didEdit(note: Note) {
         let path = IndexPath(row: notes.firstIndex(of: note) ?? 0, section: 0)
         tableView.reloadRows(at: [path], with: .automatic)
