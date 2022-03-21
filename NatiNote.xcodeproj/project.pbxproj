@@ -28,10 +28,12 @@
 		E3B6BB8827E5AFAB00C3D996 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3B6BB8727E5AFAB00C3D996 /* GoogleService-Info.plist */; };
 		E3B6BB8B27E5C22900C3D996 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6BB8A27E5C22900C3D996 /* NoteTableViewCell.swift */; };
 		E3B6BB9027E5D33500C3D996 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B6BB8F27E5D33500C3D996 /* NotesTableViewController.swift */; };
+		F2ADCB4DBF9F09D25401C2D8 /* Pods_NatiNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E995F385ECC24CFFCD4B6F /* Pods_NatiNote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		81F578BFA745ABEC2E310CC2 /* Pods-NatiNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NatiNote.release.xcconfig"; path = "Target Support Files/Pods-NatiNote/Pods-NatiNote.release.xcconfig"; sourceTree = "<group>"; };
+		95E995F385ECC24CFFCD4B6F /* Pods_NatiNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NatiNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9DC7B66A9AA644ECA5B7A3E /* Pods-NatiNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NatiNote.debug.xcconfig"; path = "Target Support Files/Pods-NatiNote/Pods-NatiNote.debug.xcconfig"; sourceTree = "<group>"; };
 		E33CBEF427E4A9280045E5E9 /* NatiNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatiNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E33CBEF727E4A9280045E5E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2ADCB4DBF9F09D25401C2D8 /* Pods_NatiNote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +81,21 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		748891BD4B3396C6703188F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95E995F385ECC24CFFCD4B6F /* Pods_NatiNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E33CBEEB27E4A9280045E5E9 = {
 			isa = PBXGroup;
 			children = (
 				E33CBEF627E4A9280045E5E9 /* NatiNote */,
 				E33CBEF527E4A9280045E5E9 /* Products */,
 				2666738B0505228054F035BF /* Pods */,
+				748891BD4B3396C6703188F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
